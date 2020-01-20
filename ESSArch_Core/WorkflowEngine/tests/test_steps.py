@@ -28,6 +28,7 @@ import tempfile
 
 from celery import states as celery_states
 from django.conf import settings
+from django.db import connection
 from django.test import TestCase, TransactionTestCase, override_settings
 from django_redis import get_redis_connection
 

@@ -24,9 +24,8 @@
 
 from django.utils.functional import cached_property
 from drf_dynamic_fields import DynamicFieldsMixin
+from languages_plus.models import Language
 from rest_framework import serializers, validators
-
-from ESSArch_Core.languages_plus.models import Language
 
 
 class DynamicModelSerializer(DynamicFieldsMixin, serializers.ModelSerializer):

@@ -12,7 +12,7 @@ class Migration(migrations.Migration):
     dependencies = [
         ('countries_plus', '0005_auto_20160224_1804'),
         ('WorkflowEngine', '0073_processstep_context'),
-        ('languages_plus', '0001_initial'),
+        ('languages_plus', '0004_auto_20171214_0004'),
         ('tags', '0015_auto_20181217_1154'),
     ]
 
