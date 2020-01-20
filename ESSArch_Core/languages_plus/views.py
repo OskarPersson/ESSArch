@@ -3,9 +3,9 @@ from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import viewsets
 
 from ESSArch_Core.api.filters import SearchFilter
-from ESSArch_Core.api.serializers import LanguageSerializer
 from ESSArch_Core.auth.permissions import ActionPermissions
 from ESSArch_Core.languages_plus.models import Language
+from ESSArch_Core.languages_plus.serializers import LanguageSerializer
 
 
 class LanguageViewSet(viewsets.ReadOnlyModelViewSet):
